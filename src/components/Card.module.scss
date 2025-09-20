@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s;
+  background: #fff;
+  text-align: center;
+}
+.card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+.card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.card div {
+  font-weight: bold;
+  color: #1976d2;
+}

@@ -1,0 +1,27 @@
+.cartPage {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+.cartItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+.cartItem img {
+  max-width: 60px;
+  border-radius: 4px;
+}
+.total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.empty {
+  color: #888;
+  text-align: center;
+  margin: 2rem;
+}
